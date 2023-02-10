@@ -5,9 +5,7 @@ source ~/.discordauth
 # CHANNELID=x
 # TOKEN=x
 # CHANNELID being the Discord Channel ID
-# TOKEN being the bot token
-
-set -u # don't expand unbound variable
+# TOKEN being the bot 
 set -f # disable pathname expansion
 set -C # noclobber
 
